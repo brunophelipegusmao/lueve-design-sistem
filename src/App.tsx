@@ -10,10 +10,12 @@ import BadgeChipModel from "./components/common/badge-chip-model";
 import BreadcrumbsModel from "./components/common/breadcrumbs-model";
 import ButtonGroupModel from "./components/common/button-group-model";
 import ButtonsModel from "./components/common/button-model";
+import CalendarModel from "./components/common/calendar-model";
 import CardModel from "./components/common/card-model";
 import CheckboxModel from "./components/common/checkbox-model";
 import ColorsModel from "./components/common/colors-model";
 import ContextMenuModel from "./components/common/context-menu-model";
+import DatePickerModel from "./components/common/date-picker-model";
 import DropdownModel from "./components/common/dropdown-model";
 import FormModel from "./components/common/form-models";
 import IconsModel from "./components/common/icons-model";
@@ -98,6 +100,8 @@ export default function App() {
             <DropdownModel />
             <ContextMenuModel />
             <ActionSheetModel />
+            <CalendarModel />
+            <DatePickerModel />
           </div>
         )}
       </main>
