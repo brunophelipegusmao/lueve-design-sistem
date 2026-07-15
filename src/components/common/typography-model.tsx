@@ -30,7 +30,7 @@ export default function TypographyModel() {
         </div>
 
         <div className="flex flex-col gap-2 border-b border-border pb-4 last:border-b-0 last:pb-0">
-          <span className="font-kenao text-3xl text-primary">Lueve</span>
+          <span className="font-kenao text-3xl text-foreground">Lueve</span>
           <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
             Fonte da marca - Kenao
           </span>

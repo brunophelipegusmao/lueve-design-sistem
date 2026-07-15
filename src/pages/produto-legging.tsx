@@ -185,7 +185,7 @@ export default function ProdutoLeggingPage() {
                   key={index}
                   className={cn(
                     "size-3.5",
-                    index < 5 ? "fill-primary text-primary" : "text-muted"
+                    index < 5 ? "fill-foreground text-foreground" : "text-muted"
                   )}
                 />
               ))}
@@ -200,7 +200,7 @@ export default function ProdutoLeggingPage() {
                 R$ 199,90
               </span>
             </div>
-            <span className="text-2xl font-semibold text-primary">
+            <span className="text-2xl font-semibold text-foreground">
               R$ 159,90
             </span>
             <span className="text-sm text-muted-foreground">
@@ -327,7 +327,7 @@ export default function ProdutoLeggingPage() {
                         className={cn(
                           "size-3.5",
                           i < avaliacao.nota
-                            ? "fill-primary text-primary"
+                            ? "fill-foreground text-foreground"
                             : "text-muted"
                         )}
                       />

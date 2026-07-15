@@ -26,7 +26,7 @@ export default function NavbarBottomModel() {
                 className={cn(
                   "flex flex-1 flex-col items-center gap-1 rounded-lg py-1.5 text-[0.65rem] font-medium",
                   active
-                    ? "text-primary"
+                    ? "text-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 )}
               >

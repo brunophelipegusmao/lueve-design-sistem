@@ -28,7 +28,7 @@ export default function StepperModel() {
                       passo.state === "done" &&
                         "border-primary bg-primary text-primary-foreground",
                       passo.state === "current" &&
-                        "border-primary text-primary",
+                        "border-primary text-foreground",
                       passo.state === "upcoming" &&
                         "border-border text-muted-foreground"
                     )}
