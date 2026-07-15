@@ -125,7 +125,7 @@ export default function ProdutoLeggingPage() {
   }
 
   return (
-    <div className="mx-auto flex max-w-5xl flex-col gap-8 p-6">
+    <div className="mx-auto flex max-w-5xl flex-col gap-8 p-4 sm:p-6">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -142,7 +142,7 @@ export default function ProdutoLeggingPage() {
         </BreadcrumbList>
       </Breadcrumb>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2 md:gap-8">
         <div className="flex flex-col gap-3">
           <img
             src={imagens[imagemAtiva]}
@@ -288,7 +288,7 @@ export default function ProdutoLeggingPage() {
       </div>
 
       <Tabs defaultValue="descricao">
-        <TabsList>
+        <TabsList className="w-full overflow-x-auto">
           <TabsTrigger value="descricao">Descrição</TabsTrigger>
           <TabsTrigger value="cuidados">Composição e Cuidados</TabsTrigger>
           <TabsTrigger value="avaliacoes">Avaliações</TabsTrigger>
