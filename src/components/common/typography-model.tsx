@@ -2,7 +2,7 @@ export default function TypographyModel() {
   return (
     <div>
       <div className="flex flex-col w-auto gap-4 p-6 border-2 m-2 rounded-2xl">
-        <h2 className="text-primary font-semibold text-3xl text-center">
+        <h2 className="text-foreground font-semibold text-3xl text-center">
           Typography
         </h2>
 
