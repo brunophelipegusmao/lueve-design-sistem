@@ -19,7 +19,7 @@ export default function ListModel() {
         </h2>
 
         <div className="flex flex-col gap-2 last:border-b-0 last:pb-0">
-          <ul className="w-80 rounded-lg border border-border">
+          <ul className="w-full max-w-xs rounded-lg border border-border">
             {pedidos.map((pedido, index) => (
               <li key={pedido.nome}>
                 <div className="flex items-center gap-3 px-3 py-2.5">

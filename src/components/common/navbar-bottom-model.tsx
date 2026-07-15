@@ -19,7 +19,7 @@ export default function NavbarBottomModel() {
         </h2>
 
         <div className="flex flex-col gap-2 last:border-b-0 last:pb-0">
-          <nav className="flex w-80 items-center justify-between rounded-xl border border-border bg-card px-2 py-2 ring-1 ring-foreground/5">
+          <nav className="flex w-full max-w-xs items-center justify-between rounded-xl border border-border bg-card px-2 py-2 ring-1 ring-foreground/5">
             {items.map(({ icon: Icon, label, active }) => (
               <button
                 key={label}

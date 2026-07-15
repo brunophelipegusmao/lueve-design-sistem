@@ -42,7 +42,7 @@ export default function IconsModel() {
           Icons
         </h2>
 
-        <div className="grid w-80 grid-cols-5 gap-3">
+        <div className="grid w-full max-w-xs grid-cols-5 gap-3">
           {icones.map(({ Icon, nome }) => (
             <div
               key={nome}

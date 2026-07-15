@@ -40,9 +40,14 @@ export default function App() {
 
   return (
     <>
-      <header className="h-20 flex items-center justify-center gap-4 bg-primary">
-        <img src="./icons/icon_01.svg" width={200} height={100} />
-        <span className="text-secondary text-2xl font-kenao">LUEVE</span>
+      <header className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 bg-primary px-4 py-3 sm:h-20 sm:flex-nowrap">
+        <img
+          src="./icons/icon_01.svg"
+          className="h-10 w-auto sm:h-25 sm:w-50"
+        />
+        <span className="text-secondary text-xl sm:text-2xl font-kenao">
+          LUEVE
+        </span>
         <div className="flex gap-1.5">
           <Button
             size="sm"
@@ -66,7 +71,7 @@ export default function App() {
         {pagina === "produto" ? (
           <ProdutoLeggingPage />
         ) : (
-          <div className="flex flex-wrap items-start gap-3 p-2">
+          <div className="flex flex-col gap-3 p-2 sm:flex-row sm:flex-wrap sm:items-start">
             <TypographyModel />
             <ColorsModel />
             <ShadowModel />

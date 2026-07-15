@@ -18,9 +18,9 @@ export default function StepperModel() {
         </h2>
 
         <div className="flex flex-col gap-2 last:border-b-0 last:pb-0">
-          <div className="flex w-96 items-center">
+          <div className="flex w-full max-w-sm items-center">
             {passos.map((passo, index) => (
-              <div key={passo.label} className="flex flex-1 items-center last:flex-none">
+              <div key={passo.label} className="flex min-w-0 flex-1 items-center last:flex-none">
                 <div className="flex flex-col items-center gap-1.5">
                   <div
                     className={cn(

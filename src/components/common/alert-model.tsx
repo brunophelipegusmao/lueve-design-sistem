@@ -11,7 +11,7 @@ export default function AlertModel() {
         </h2>
 
         <div className="flex flex-col gap-2 border-b border-border pb-4 last:border-b-0 last:pb-0">
-          <Alert className="w-80">
+          <Alert className="w-full max-w-xs">
             <InfoIcon />
             <AlertTitle>Informação</AlertTitle>
             <AlertDescription>
@@ -24,7 +24,7 @@ export default function AlertModel() {
         </div>
 
         <div className="flex flex-col gap-2 border-b border-border pb-4 last:border-b-0 last:pb-0">
-          <Alert className="w-80">
+          <Alert className="w-full max-w-xs">
             <CircleCheckIcon />
             <AlertTitle>Sucesso</AlertTitle>
             <AlertDescription>
@@ -37,7 +37,7 @@ export default function AlertModel() {
         </div>
 
         <div className="flex flex-col gap-2 last:border-b-0 last:pb-0">
-          <Alert variant="destructive" className="w-80">
+          <Alert variant="destructive" className="w-full max-w-xs">
             <CircleAlertIcon />
             <AlertTitle>Erro</AlertTitle>
             <AlertDescription>

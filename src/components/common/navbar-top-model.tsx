@@ -17,7 +17,7 @@ export default function NavbarTopModel() {
         </h2>
 
         <div className="flex flex-col gap-2 last:border-b-0 last:pb-0">
-          <nav className="flex w-[32rem] items-center justify-between rounded-lg bg-primary px-4 py-2.5 text-primary-foreground">
+          <nav className="flex w-full max-w-lg flex-wrap items-center justify-between gap-2 rounded-lg bg-primary px-4 py-2.5 text-primary-foreground">
             <span className="font-heading text-lg font-semibold">LUEVE</span>
             <NavigationMenu>
               <NavigationMenuList>
