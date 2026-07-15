@@ -2,12 +2,11 @@
 <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1673.5 1673.5">
   <defs>
     <style>
-      .cls-1 {
-        fill: #8d967e;
+      .cls-1 { fill: #e3d6c3
       }
 
       .cls-2 {
-        fill: #e3d6c3;
+        fill: #8d967e;
       }
     </style>
   </defs>

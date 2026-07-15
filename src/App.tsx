@@ -40,14 +40,14 @@ export default function App() {
 
   return (
     <>
-      <header className="h-20 flex items-center justify-center gap-4 bg-[#8d967e]">
+      <header className="h-20 flex items-center justify-center gap-4 bg-primary">
         <img src="./icons/icon_01.svg" width={200} height={100} />
-        <span className="text-[#e3d6c3] text-2xl font-kenao">LUEVE</span>
+        <span className="text-secondary text-2xl font-kenao">LUEVE</span>
         <div className="flex gap-1.5">
           <Button
             size="sm"
             variant={pagina === "guide" ? "secondary" : "ghost"}
-            className={pagina !== "guide" ? "text-[#e3d6c3] hover:text-[#e3d6c3]" : ""}
+            className={pagina !== "guide" ? "text-secondary hover:text-secondary" : ""}
             onClick={() => setPagina("guide")}
           >
             Style Guide
@@ -55,7 +55,7 @@ export default function App() {
           <Button
             size="sm"
             variant={pagina === "produto" ? "secondary" : "ghost"}
-            className={pagina !== "produto" ? "text-[#e3d6c3] hover:text-[#e3d6c3]" : ""}
+            className={pagina !== "produto" ? "text-secondary hover:text-secondary" : ""}
             onClick={() => setPagina("produto")}
           >
             Produto
